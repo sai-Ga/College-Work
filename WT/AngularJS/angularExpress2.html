@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./angular-min.js"></script>
+</head>
+<body>
+    <div ng-app="" ng-init="quantity=2; amount=200">
+        <p>Total Amount: {{quantity*amount}} </p>
+        Enter quantity <input type="number" ng-model="quan"><br>
+        Enter amount <input type="number" ng-model="amt"><br>
+        Total amount= {{quan*amt}}
+    </div>
+</body>
+</html>
