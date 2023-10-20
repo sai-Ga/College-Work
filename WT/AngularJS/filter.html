@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./angular-min.js"></script>
+</head>
+<body>
+    <div ng-app="myNGApp" ng-controller = "myController">
+
+        <p>The name is {{firstName+' '+lastName|uppercase}}</p>
+        <p>The name is {{firstName+' '+lastName|lowercase}}</p>
+    </div>
+    <script>
+
+    angular.module('myNGApp',[]).controller('myController',function($scope){
+    $scope.firstName = "Bond,",
+    $scope.lastName = "James Bond"
+    });
+    </script>
+</body>
+</html>

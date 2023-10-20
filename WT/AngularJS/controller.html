@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src=" ./angular-min.js"></script>
+</head>
+<body ng-app="myNGApp">
+    <div ng-controller = "myController"> <!--view-->
+        {{message}}
+        {{price}}
+
+    </div>
+</body>
+<script>
+    //variable of the app
+    var ngapp = angular.module('myNGApp',[]);
+    //Controller 
+    ngapp.controller('myController',function($scope){
+        $scope.message = "James Bond";
+        $scope.price = 7;
+
+    });
+</script>
+</html>
