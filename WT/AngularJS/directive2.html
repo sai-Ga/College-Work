@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./angular-min.js"></script>
+</head>
+<body ng-app>
+    Keep HTML: <input type="checkbox" ng-model="myVar" ng-init="myVar=true">
+    <div ng-if="myVar">
+        <h1>Welcome</h1>
+        <p>Welcome to my home.</p>
+        <br>
+    </div>
+    <p>The Div element will be removed when the checkbox is not checked.</p>
+    <p>The Div element will return, if the checkbox is checked</p>
+</body>
+</html>

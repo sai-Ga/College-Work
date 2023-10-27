@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="./angular-min.js"></script>
+    <style>
+        div{
+            border: 1px solid red;
+            width: 100px; 
+            height: 100px;
+            display: block;
+            margin-bottom: 10px;
+            text-align: center;
+            background-color: yellow;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body ng-app ng-init="students=['Billy','Bob','Thornton']">
+    <ol>
+        <li ng-repeat="name in students">
+            {{name}}
+        </li>
+    </ol>
+    <div ng-repeat="name in students">
+        {{name}}
+    </div>
+</body>
+</html>
