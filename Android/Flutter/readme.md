@@ -3,6 +3,8 @@
 This repository contains a collection of simple Flutter projects, each demonstrating a different concept or feature of the Flutter framework. Each project is independent and can be run on its own.
 
 They are a prt of the Mobile Computing Lab Journal Index: 
+
+
 ![image](https://github.com/user-attachments/assets/59250cbf-2ded-4d79-8f53-7ef5547a77b5)
 
 
